@@ -137,6 +137,7 @@ img {
 
 @media only screen and (max-width: 480px) {
     .row {
+        padding-bottom: 3rem;
         flex-direction: column;
         align-items: center;
     }
@@ -168,5 +169,23 @@ img {
 
     .why-us .col-right {
         width: 100%;
+    }
+
+    .why-us li {
+        margin-bottom: 2.5rem;
+    }
+
+    .why-us li:last-child {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        padding-top: 3rem;
+        margin-bottom: 0;
+        background: #222;
+    }
+
+    .steps {
+        margin: 0;
     }
 }
