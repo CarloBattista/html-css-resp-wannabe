@@ -149,4 +149,16 @@ img {
     .lessons .col:last-child {
         padding-bottom: 0;
     }
+
+    .steps .col {
+        width: calc(100% / 1);
+    }
+
+    .col {
+        padding-bottom: 4rem;
+    }
+
+    .col:last-child {
+        padding-bottom: 0;
+    }
 }
