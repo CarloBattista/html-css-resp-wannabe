@@ -140,4 +140,13 @@ img {
         flex-direction: column;
         align-items: center;
     }
+
+    .lessons .col {
+        width: 80%;
+        padding-bottom: 4rem;
+    }
+
+    .lessons .col:last-child {
+        padding-bottom: 0;
+    }
 }
