@@ -161,4 +161,8 @@ img {
     .col:last-child {
         padding-bottom: 0;
     }
+
+    .why-us .col-left {
+        width: 80%;
+    }
 }
